@@ -1,6 +1,6 @@
 # About this project
 
-...
+GitHub Pages: https://samaea.github.io/e2e-devops-architecture
 
 ## Contributing
 
