@@ -7,4 +7,136 @@ nav_order: 1
 
 ## ADO Structure
 
-tbc
+
+# Azure DevOps Setup and Operating Model
+
+Azure DevOps has a number of different services that need to be considered when setting up the service and the operational model to support the use and adoption by teams. It's key to look at the structure of an organisation to best align this model for supporting growth and usability moving forward.
+
+This guide is prescriptive in providing a way to get started with a view to scale moving forward.
+
+Azure DevOps consists of a number of different structures and products that need to be considered where setting up the service.
+
+[Link to Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops)  
+   
+
+I few key products are:
+
+![Azure DevOps](../images/services-hubs-vert.png)
+
+## Get Started  
+
+1. [Plan your Organization Structure](https://docs.microsoft.com/en-us/azure/devops/user-guide/plan-your-azure-devops-org-structure?view=azure-devops)
+   - **What is an Organization?**  
+      It's the primary entity point (e.g. <https://dev.azure.com/{yourorganization>}) into Azure   DevOps where projects and supporting products are hosted.
+   - **One or Multiple Organizations**  
+      One organization works for most scenarios and is a good starting point where multiple projects and teams can be added to an organization, which can drive productivity and adoption initially.
+
+      Going with a multiple organizations model is generally driven by the need for teams and projects to work in isolation and/or require a different security model across different of a company.
+2. [Organizational](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/organization-management?view=azure-devops)
+   - [Create Azure DevOps Organization](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=azure-devops)
+      - Remember an Owner for the organization is required.
+      - URL for logging into the new organization is https://dev.azure.com/{yourorganization}
+   - [Restrict organization creation with tenant policy in Azure](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/azure-ad-tenant-policy-restrict-org-creation?view=azure-devops)
+   - Setup AAD Integration
+      - Connect your organisation to AAD
+      - Add users to AAD
+      - Add AAD security groups to ADO groups
+   - [Manage Users access via Security Groups (Best Practice)](https://learn.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page)
+      - [Add users to your organisation](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/add-organization-users?view=azure-devops&tabs=browser)
+      - [Add users to Teams](https://learn.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops&tabs=preview-page#add-users-to-a-team)
+      - [Add users to Projects](https://learn.microsoft.com/en-us/azure/devops/organizations/security/add-users-team-project?view=azure-devops&tabs=preview-page#add-users-to-a-project)
+   5. [Define process for Access, Roles and Permissions at Organizational level](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page)
+      - [Permissions](https://learn.microsoft.com/en-us/azure/devops/user-guide/manage-organization-collection?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops#manage-security-and-permissions)
+      - Roles and Responsibilities (tbc)
+      - URL for logging into the new organization is (https://dev.azure.com/{yourorganization})
+   - [Setup Billing for Organization](https://docs.microsoft.com/en-us/azure/devops/user-guide/manage-organization-collection?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops#set-up-billing)
+   - Review Policies
+   - Review and update Boards processes
+3. [Teams](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-teams-and-settings?view=azure-devops)
+   - Each project gets a default team created.
+   - Optional, create any additional teams required for the project an/or identified in the planning your organization structure section above.
+   - Define process for Access, Roles and Permissions at Team level (tbc - build out more info)
+      - Roles and Responsibilities (tbc)
+   - [Manage and configure team tools](https://learn.microsoft.com/en-us/azure/devops/organizations/settings/manage-teams?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&bc=%2Fazure%2Fdevops%2Fget-started%2Fbreadcrumb%2Ftoc.json&view=azure-devops)   
+4. [Project](https://docs.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops)
+    - An organization can have multiple projects and it's key to look at the project structure. Asking questions like:
+      - Do we need one project per Team?
+      - Do we need one project per Business Area?
+      - Do we need one project per product?
+      - How do we collaborate across teams and projects?
+      - How much organizational structure change do we expect?
+
+      The questions above start to build out a picture that informs the Azure DevOps project and also can impact the organization design.
+
+      As if there's a lot of organizational structure change. How would you make sure the Azure DevOps design can handle it without a lot of redesign and moving projects and teams around?
+
+      Some examples:
+
+         - By creating a project per Business Process Area (e.g. Payments) if the names and structure of the organization changes the Payments BPA project should still be valid including the team membership.
+    - Define process for Access, Roles and Permissions at Project and Team level prior to creation of first project. (tbc - build out more info)
+        - Roles and Responsibilities (tbc)
+    - Define process for Service Connections and Agent Pools
+    - [Create Project](https://learn.microsoft.com/en-us/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser)
+    - [Structure your Project](https://learn.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops#structure-your-project)
+    - [Add Team to your Project](https://learn.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops#when-to-add-a-team-scaling-agile-tools-across-the-enterprise)
+5. [Boards](https://docs.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
+    - [What is an Azure Board?](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops) 
+    - Review process's setup in the Organization.
+      - [About areas and iteration paths](https://learn.microsoft.com/en-us/azure/devops/organizations/settings/about-areas-iterations?toc=%2Fazure%2Fdevops%2Freference%2Ftoc.json&bc=%2Fazure%2Fdevops%2Freference%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
+    - Configure the Team configuration for Backlogs, working days, bugs, iterations, areas and templates.
+    - Optional, setup GitHub connection for linking Boards to a GitHub repo.
+      - [Overview](https://learn.microsoft.com/en-us/azure/devops/cross-service/github-integration?view=azure-devops)
+      - [Azure Boards - GitHub Integration](https://learn.microsoft.com/en-us/azure/devops/boards/github/?view=azure-devops)
+    - Config the Teams Board for their ways of working (e.g. workflow, swim-lanes, styles and fields)
+6. [Repositories](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-new-repo?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops)
+    - Define and branching strategy for the Team when working with a repo.
+    - Set default branch name (e.g. main)
+    - Apply policies to the repo.
+    - Review and apply security groups and roles to repo.
+    - Dev team to agree approach to repo's for their applications:
+        - One vs. many
+        - Shared vs. Forked
+    - Define process for Access, Roles and Permissions at repo level based on above requirements.
+    - [Create Repo](https://learn.microsoft.com/en-us/azure/devops/repos/git/create-new-repo?view=azure-devops)
+7. [Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
+    - Best practice is to move to YAML pipelines for both build and release pipelines.
+    - This allows for managing the pipelines as code and storing them in repos to drive consistency and audibility linked to builds and releases.
+    - [Create first pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started?view=azure-devops)
+    - [Agent Pools](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops&tabs=yaml%2Cbrowser)
+         - For security and scalability its recommended  to use safe-hosted agents for pipelines.
+
+8. [Security](https://docs.microsoft.com/en-us/azure/devops/organizations/security/?view=azure-devops)
+   1. Roles and Permissions
+      1. Organization ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/change-organization-collection-level-permissions?view=azure-devops&tabs=preview-page))
+ 
+            Role | Description | Permissions
+            ---- | ----------- | -----------
+            Organization Owner | Has permissions to add users, change the access level for a user or group, manage permissions at all levels, and configure and customize all projects defined for the organization. | - All
+            Project Collection Administrator | Main administrator defined for an organization or project collection. | - Add users to a collection<br/>- Create and manage all projects in the organization or collection<br/>- Create and manage all Inherited processes defined for a collection<br/>- Install and uninstall extensions<br/>- Add members and groups to the Project Collection Administrators group or any other project-level group<br/>- Manage permissions at all levels.
+      2. Project ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/change-project-level-permissions?view=azure-devops&tabs=preview-page))
+
+            Role | Description | Permissions
+            ---- | ----------- | -----------
+            Project Administrator | Main administrator/s for a project|  - Delete and rename the project<br/>- Add users and teams to the project<br/>- Add and manage Area Paths and Iteration Paths<br/>- Add and manage shared query folders<br/>- Add members and groups to the Project Administrators group or any other project-level group<br/>- Manage permissions at the project-level or for any object defined for the project. (Boards, Repos, Test Plans, Artifacts)
+      3.  Boards / Teams ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions-access-work-tracking?view=azure-devops))
+
+            Role | Description | Permissions
+            ---- | ----------- | -----------
+            Project Administrators | Main administrator/s for a project | - All
+            Team Administrator | Main administrator for the Team | - Can configure settings for their team's tools. 
+            Contributors | Contributor to tool's they have permission too. Not manage user permissions | - Permissions to work with (Work Items,Boards, Backlogs, Sprints, Queries / Search, Delivery Plans, Test Plans and Project-Level Resources)
+            Readers | Reading to tool's they have permission too. | - Permissions to view (Work Items,Boards, Backlogs, Sprints, Queries / Search, Delivery Plans, Test Plans and Project-Level Resources)
+      4. Repositories [Repos] ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/default-git-permissions?view=azure-devops))
+
+            Role | Description | Permissions
+            ---- | ----------- | -----------
+            Project Administrators | Main administrator/s for a project | - All
+            Build Admins | Main administrator for the Team | - Read (clone, fetch, and explore the contents of a repository); also, can create, comment on, vote, and Contribute to pull requests<br/> - Contribute, Create branches, Create tags, and Manage notes  
+            Contributors | Contributor to tool's they have permission too. Not manage user permissions | - Read (clone, fetch, and explore the contents of a repository); also, can create, comment on, vote, and Contribute to pull requests<br/> - Contribute, Create branches, Create tags, and Manage notes 
+            Readers | Reading to tool's they have permission too. | - Read (clone, fetch, and explore the contents of a repository); also, can create, comment on, vote, and Contribute to pull requests
+      5. Pipelines ([more info](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-security-roles?view=azure-devops))
+
+            Role | Description | Permissions
+            ---- | ----------- | -----------
+
+            
