@@ -21,9 +21,11 @@ Azure DevOps consists of a number of different structures and products that need
 
 I few key products are:
 
-![Azure DevOps](../images/services-hubs-vert.png)
+![Azure DevOps](../../assets/services-hubs-vert.png)
 
 ## Get Started  
+
+![Setting up Organization](../../assets/devops%20org%20process.png)
 
 1. [Plan your Organization Structure](https://docs.microsoft.com/en-us/azure/devops/user-guide/plan-your-azure-devops-org-structure?view=azure-devops)
    - **What is an Organization?**  
@@ -59,6 +61,7 @@ I few key products are:
       - Roles and Responsibilities (tbc)
    - [Manage and configure team tools](https://learn.microsoft.com/en-us/azure/devops/organizations/settings/manage-teams?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&bc=%2Fazure%2Fdevops%2Fget-started%2Fbreadcrumb%2Ftoc.json&view=azure-devops)   
 4. [Project](https://docs.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops)
+![Projects](../../assets/devops%20projects%20process.png)
     - An organization can have multiple projects and it's key to look at the project structure. Asking questions like:
       - Do we need one project per Team?
       - Do we need one project per Business Area?
@@ -99,6 +102,7 @@ I few key products are:
     - Define process for Access, Roles and Permissions at repo level based on above requirements.
     - [Create Repo](https://learn.microsoft.com/en-us/azure/devops/repos/git/create-new-repo?view=azure-devops)
 7. [Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
+![Pipelines](../../assets/devops%20pipelines%20process.png)
     - Best practice is to move to YAML pipelines for both build and release pipelines.
     - This allows for managing the pipelines as code and storing them in repos to drive consistency and audibility linked to builds and releases.
     - [Create first pipeline](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-get-started?view=azure-devops)
