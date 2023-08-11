@@ -5,7 +5,7 @@ has_children: false
 nav_order: 1
 ---
 
-## Azure DevOps Structure (test update)
+## Azure DevOps Structure
 
 
 # Azure DevOps Setup and Operating Model
