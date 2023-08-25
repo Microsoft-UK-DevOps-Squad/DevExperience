@@ -1,8 +1,8 @@
 ---
-title: AAD Integration
+title: Azure DevOps AAD Integration
 parent: DevOps Setup
 has_children: false
-nav_order: 3
+nav_order: 2
 ---
 
 ## Azure DevOps and Active Directory (AAD) Integration
