@@ -3,9 +3,9 @@ title: Overview
 nav_order: 1
 ---
 
-## E2E DevOps Reference Architecture
+# E2E DevOps Reference Architecture
+This website provides a high-level overview of a Microsoft E2E DevOps Reference Architecture, covering  topics such as repo structures, RBAC roles, CI/CD pipeline best practices, security, AI and project management. It is designed to bring customers and partners to a 200-level understanding of DevOps best practices when working with ADO (Azure DevOps) & GH (GitHub). You will need a basic level of Development & Project Management understanding. 
 
-High-level overview of the E2E DevOps Reference Architecture.
 
 ---
 
