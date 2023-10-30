@@ -19,13 +19,13 @@ GitHub Copilot is a collaboration between GitHub and OpenAI, and it integrates w
 Offers code suggestions contextualized to your project. Below shows some of the features:
 
 - ### Convert comments to code
-  - Trained on billions of lines of code it turns natural language prompts into coding suggestions
+  Trained on billions of lines of code it turns natural language prompts into coding suggestions
 
 - ### Autofill for repetitive code
-  - Spend less time creating boilerplate and repetitive code patterns, and more time on what matters: building great software
+  Spend less time creating boilerplate and repetitive code patterns, and more time on what matters: building great software
 
 - ### Show alternatives
-  - Quickly cycle through lines of code, complete function suggestions, and decide which to accept, reject, or edit.
+  Quickly cycle through lines of code, complete function suggestions, and decide which to accept, reject, or edit.
 
 - ### Use as part of your day job
 
