@@ -14,10 +14,9 @@ GitHub Copilot is an AI-powered coding assistant that helps developers write cod
 GitHub Copilot is a collaboration between GitHub and OpenAI, and it integrates with popular IDEs such as Visual Studio Code, Visual Studio, Neovim, and JetBrains. GitHub Copilot is currently available as a technical preview for individuals and businesses, with different plans and features. GitHub Copilot aims to help developers focus on solving bigger problems, learn new languages or frameworks, and code confidently in unfamiliar domains.
 
 
-
 ## GitHub Copilot
 
-Offers code suggestions contextualized to your project. 
+Offers code suggestions contextualized to your project. Below shows some of the features:
 
 ### Convert comments to code
 Trained on billions of lines of code it turns natural language prompts into coding suggestions
@@ -66,7 +65,7 @@ To use GitHub Copilot, you need a GitHub account and a compatible IDE. You also 
 
 ## For personal accounts
 
-If you want to purchase GitHub Copilot for your personal account, you can choose between a monthly or a yearly plan. There's a monthly and yearly plan for pricing with details ![here](https://docs.github.com/en/enterprise-cloud@latest/copilot/overview-of-github-copilot/about-github-copilot-for-individuals). You can also try GitHub Copilot for free with a one-time 30-day trial. If you are a verified student, teacher, or maintainer of a popular open source project, you can use GitHub Copilot for free.
+If you want to purchase GitHub Copilot for your personal account, you can choose between a monthly or a yearly plan. There's a monthly and yearly plan for pricing with details [here](https://docs.github.com/en/enterprise-cloud@latest/copilot/overview-of-github-copilot/about-github-copilot-for-individuals). You can also try GitHub Copilot for free with a one-time 30-day trial. If you are a verified student, teacher, or maintainer of a popular open source project, you can use GitHub Copilot for free.
 
 To purchase or start a trial of GitHub Copilot for your personal account, follow these steps:
 
@@ -81,18 +80,18 @@ To purchase or start a trial of GitHub Copilot for your personal account, follow
 If you want to purchase GitHub Copilot for your organization account, you need a GitHub Copilot for Business subscription. GitHub Copilot for Business offers enterprise-grade security, privacy, compliance, and responsible AI features. You can purchase GitHub Copilot for Business for an organization or an enterprise, can be found [here](https://docs.github.com/en/enterprise-cloud@latest/copilot/overview-of-github-copilot/about-github-copilot-for-business).
 
 To purchase GitHub Copilot for Business for an organization, follow these steps:
-
+```
 1. Go to the GitHub Copilot for Business sign up page.
 2. Select an organization for which you want to purchase GitHub Copilot and click Continue.
 3. Follow the steps to confirm your payment details, then click Save.
-
+```
 To purchase GitHub Copilot for Business for an enterprise, follow these steps:
-
+```
 1. Go to the GitHub Copilot for Business sign up page.
 2. To purchase GitHub Copilot for your enterprise, select Enable GitHub Copilot at an enterprise level and click Continue.
 3. Select the enterprise for which you want to purchase GitHub Copilot and click Continue.
 4. Follow the steps to confirm your payment details, then click Save.
-
+```
 After purchasing GitHub Copilot for Business for your organization or enterprise, you can assign seats to members who can use GitHub Copilot.
 
 ## Enabling GitHub Copilot in your IDE
