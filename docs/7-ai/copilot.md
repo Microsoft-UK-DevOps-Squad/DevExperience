@@ -99,37 +99,38 @@ After purchasing GitHub Copilot for Business for your organization or enterprise
 After purchasing or starting a trial of GitHub Copilot for your account, you can enable it in your IDE by installing the GitHub Copilot and GitHub Copilot Chat extensions. The extensions are available for Visual Studio Code, Visual Studio, Neovim, and JetBrains IDEs.
 
 To install the extension in Visual Studio Code:
-
+```
 1. Open Visual Studio Code.
 2. In the Extensions view (Ctrl+Shift+X), search for "GitHub copilot" or "GitHub Copilot Chat".
 3. Click Install next to the extension name.
 4. Sign in with your GitHub account when prompted.
+```
 
 To install the extension in Visual Studio:
-
+```
 1. Open Visual Studio.
 2. In the Extensions menu, select Manage Extensions.
 3. In the Online section of the left pane, search for "GitHub copilot" or "GitHub Copilot Chat".
 4. Click Download next to the extension name.
 5. Restart Visual Studio when prompted.
 6. Sign in with your GitHub account when prompted.
-
+```
 To install the extension in Neovim:
-
+```
 1. Install vim-plug if you don't have it already.
 2. Add `Plug 'github/copilot.vim'` to your `.vimrc` file.
 3. Run `:PlugInstall` in Neovim.
 4. Sign in with your GitHub account when prompted.
-
+```
 To install the extension in JetBrains IDEs:
-
+```
 1. Open any JetBrains IDE (such as IntelliJ IDEA or PyCharm).
 2. In the Settings/Preferences dialog (Ctrl+Alt+S), select Plugins.
 3. In the Marketplace tab of the right pane, search for "GitHub copilot" or "GitHub Copilot Chat".
 4. Click Install next to the extension name.
 5. Restart the IDE when prompted.
 6. Sign in with your GitHub account when prompted.
-
+```
 ## Getting started with GitHub Copilot
 
 After enabling GitHub Copilot in your IDE, you can start using it to get suggestions for your code. You can trigger suggestions by typing a comment, a partial line of code, or pressing Ctrl+Enter. You can cycle through different suggestions by pressing Tab or Shift+Tab. You can accept a suggestion by pressing Enter or clicking on it.
@@ -154,23 +155,26 @@ To get the best out of GitHub Copilot, you need to master the art of prompt engi
 
 ## Benefits for different Persona's 
 
-- Early in Career / New Developers
+- **Early in Career / New Developers**
   - Help Accelerate learning
   - Get hands-on quicker
   - Build confidence
   - Improve quality
-- Lead / Senior Developers
+
+- **Lead / Senior Developers**
   - Unit Tests
   - Comments code
   - Describing and documentation code
   - Vulnerability and security checks
-- Other (Infra, Data) engineers
+
+- **Other (Infra, Data) engineers**
   - Enables to quickly code scripts supporting Infrastructure and data
   - Examples:
     - Bash and PowerShell scripts
     - IaC working with Terraform, ARM and Bicep.
     - Automation
-- Architects
+    
+- **Architects**
   - Helps with creating POC’s, as generally don’t write code often.
 
 ## Software Developenment Life Cycle (SDLC)
