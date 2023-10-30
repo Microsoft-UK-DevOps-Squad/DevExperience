@@ -36,6 +36,8 @@ Offers code suggestions contextualized to your project. Below shows some of the 
 
 ## GitHub Copilot for Business Chat
 
+![GitHub Copilot Chat](../../assets/copilot2.png)
+
 GitHub Copilot for Business Chat is a new feature that lets you chat with GitHub Copilot, an AI-powered coding assistant, directly from your IDE. Whether you need help with syntax, concepts, test cases, debugging, or anything else related to coding, GitHub Copilot for Business Chat can provide you with relevant answers and suggestions in natural language. You can also ask GitHub Copilot to generate code snippets for you based on your specifications.
 
 GitHub Copilot for Business Chat is currently available in Visual Studio Code and Visual Studio, and supports a wide range of programming languages and frameworks. GitHub Copilot for Business Chat is designed to help you code faster, smarter, and easier, without leaving your IDE. It is also constantly learning from your feedback and improving its performance over time.
@@ -58,8 +60,6 @@ Can help with situations where the developer has left and somebody else needs to
 
 ### Fix Security and Vulnerability Issues
 Improve security posture of the code. Example could identify SQL Injection issues and suggest solutions.
-
-![GitHub Copilot Chat](../../assets/copilot2.png)
 
 ---
 
