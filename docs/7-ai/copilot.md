@@ -13,24 +13,26 @@ GitHub Copilot is an AI-powered coding assistant that helps developers write cod
 
 GitHub Copilot is a collaboration between GitHub and OpenAI, and it integrates with popular IDEs such as Visual Studio Code, Visual Studio, Neovim, and JetBrains. GitHub Copilot is currently available as a technical preview for individuals and businesses, with different plans and features. GitHub Copilot aims to help developers focus on solving bigger problems, learn new languages or frameworks, and code confidently in unfamiliar domains.
 
+---
 
 ## GitHub Copilot
 
+![GitHub Copilot](../../assets/copilot1.png)
+
 Offers code suggestions contextualized to your project. Below shows some of the features:
 
-- ### Convert comments to code
+- Convert comments to code
   Trained on billions of lines of code it turns natural language prompts into coding suggestions
 
-- ### Autofill for repetitive code
+- Autofill for repetitive code
   Spend less time creating boilerplate and repetitive code patterns, and more time on what matters: building great software
 
-- ### Show alternatives
+- Show alternatives
   Quickly cycle through lines of code, complete function suggestions, and decide which to accept, reject, or edit.
 
-- ### Use as part of your day job
+- Use as part of your day job
 
-
-![GitHub Copilot](../../assets/copilot1.png)
+---
 
 ## GitHub Copilot for Business Chat
 
@@ -58,6 +60,8 @@ Can help with situations where the developer has left and somebody else needs to
 Improve security posture of the code. Example could identify SQL Injection issues and suggest solutions.
 
 ![GitHub Copilot Chat](../../assets/copilot2.png)
+
+---
 
 # How to purchase and enable GitHub Copilot for developers
 
@@ -93,6 +97,8 @@ To purchase GitHub Copilot for Business for an enterprise, follow these steps:
 4. Follow the steps to confirm your payment details, then click Save.
 ```
 After purchasing GitHub Copilot for Business for your organization or enterprise, you can assign seats to members who can use GitHub Copilot.
+
+---
 
 ## Enabling GitHub Copilot in your IDE
 
@@ -131,12 +137,15 @@ To install the extension in JetBrains IDEs:
 5. Restart the IDE when prompted.
 6. Sign in with your GitHub account when prompted.
 ```
+---
+
 ## Getting started with GitHub Copilot
 
 After enabling GitHub Copilot in your IDE, you can start using it to get suggestions for your code. You can trigger suggestions by typing a comment, a partial line of code, or pressing Ctrl+Enter. You can cycle through different suggestions by pressing Tab or Shift+Tab. You can accept a suggestion by pressing Enter or clicking on it.
 
 For more information on how to use GitHub Copilot in different scenarios, see [Getting started with GitHub Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot).
 
+---
 
 ## Prompt Engineering
 
@@ -152,6 +161,7 @@ To get the best out of GitHub Copilot, you need to master the art of prompt engi
 
 [What is prompt engineering](https://www.geeksforgeeks.org/what-is-prompt-engineering-the-ai-revolution/) is a good link to more information on this.
 
+---
 
 ## Benefits for different Persona's 
 
@@ -177,13 +187,15 @@ To get the best out of GitHub Copilot, you need to master the art of prompt engi
 - **Architects**
   - Helps with creating POC’s, as generally don’t write code often.
 
+---
+
 ## Software Developenment Life Cycle (SDLC)
 
 GitHub Copilot can be used across the SDLC and below shows this:
 
 ![SDLC](../../assets/copilot3.png)
 
-
+---
 
 ## Extra Links
 
@@ -197,4 +209,4 @@ GitHub Copilot can be used across the SDLC and below shows this:
 
 [GitHub Copilot · Your AI pair programmer](https://github.com/features/copilot)
 
-
+---
