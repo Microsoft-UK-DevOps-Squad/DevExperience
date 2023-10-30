@@ -18,16 +18,16 @@ GitHub Copilot is a collaboration between GitHub and OpenAI, and it integrates w
 
 Offers code suggestions contextualized to your project. Below shows some of the features:
 
-### Convert comments to code
-Trained on billions of lines of code it turns natural language prompts into coding suggestions
+- ### Convert comments to code
+  - Trained on billions of lines of code it turns natural language prompts into coding suggestions
 
-### Autofill for repetitive code
-Spend less time creating boilerplate and repetitive code patterns, and more time on what matters: building great software
+- ### Autofill for repetitive code
+  - Spend less time creating boilerplate and repetitive code patterns, and more time on what matters: building great software
 
-### Show alternatives
-Quickly cycle through lines of code, complete function suggestions, and decide which to accept, reject, or edit.
+- ### Show alternatives
+  - Quickly cycle through lines of code, complete function suggestions, and decide which to accept, reject, or edit.
 
-Use as part of your day job
+- ### Use as part of your day job
 
 
 ![GitHub Copilot](../../assets/copilot1.png)
@@ -40,8 +40,8 @@ GitHub Copilot for Business Chat is currently available in Visual Studio Code an
 
 To get started with GitHub Copilot for Business Chat, you need a GitHub Copilot for Business subscription, which gives you access to the public beta of this feature. You can learn more about GitHub Copilot for Business Chat and how to use it from the official documentation.
 
-### Rewrite code into other languages 
-Can look to rewrite from one language to another. Help with migrations and modernization
+- ### Rewrite code into other languages 
+  - Can look to rewrite from one language to another. Help with migrations and modernization
 E.g. Legacy PHP program to C#,  IaC Terraform to Bicep , Bash script to PowerShell. 
 
 ### Refactor and Optimize code
