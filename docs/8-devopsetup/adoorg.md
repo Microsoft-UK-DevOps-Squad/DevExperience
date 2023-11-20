@@ -1,6 +1,6 @@
 ---
-title: Azure DevOps Organization 
-parent: DevOps Setup
+title: Organization Setup
+parent: Azure DevOps (ADO)
 has_children: false
 nav_order: 1
 ---

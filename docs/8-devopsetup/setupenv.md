@@ -1,6 +1,6 @@
 ---
 title: Setup Environment
-parent: DevOps Setup
+parent: Azure DevOps (ADO)
 has_children: false
 nav_order: 5
 ---

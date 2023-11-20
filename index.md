@@ -3,9 +3,19 @@ title: Overview
 nav_order: 1
 ---
 
-## E2E DevOps Reference Architecture
+## E2E DevExperience Guide
+This DevExperience Guide will give you insights into services and best practices for a successful End-to-End Developer Workflow. It will provide: 
+- High-level introduction
+- Best practices
+- Decision Guides
+- Hands on Labs 
+- as well as links to more learning offers.  
 
-High-level overview of the E2E DevOps Reference Architecture.
+It is designed to bring customer and partners to a profound understanding of the technology and when to best use each strategy or tool. All instructions provided require a basic understanding of Development and DevOps. 
+
+Diagram of E2E Developer Architecture 
+
+
 
 ---
 

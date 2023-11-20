@@ -1,6 +1,6 @@
 ---
-title: Azure DevOps Projects
-parent: DevOps Setup
+title: Projects
+parent: Azure DevOps (ADO)
 has_children: false
 nav_order: 3
 ---
