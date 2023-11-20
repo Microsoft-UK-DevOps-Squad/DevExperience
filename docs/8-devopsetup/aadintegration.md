@@ -1,6 +1,6 @@
 ---
-title: Azure DevOps AAD Integration
-parent: DevOps Setup
+title: AAD Integration
+parent: Azure DevOps (ADO)
 has_children: false
 nav_order: 2
 ---
