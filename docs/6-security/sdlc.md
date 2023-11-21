@@ -1,6 +1,6 @@
 ---
 title: Software Development Life Cycle
-parent: DevSecOps
+parent: Security
 has_children: false
 nav_order: 3
 ---

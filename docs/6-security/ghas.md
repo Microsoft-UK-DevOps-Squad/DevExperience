@@ -1,6 +1,6 @@
 ---
 title: GitHub Advanced Security
-parent: DevSecOps
+parent: Security
 has_children: false
 nav_order: 1
 ---
