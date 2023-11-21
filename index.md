@@ -3,19 +3,37 @@ title: Overview
 nav_order: 1
 ---
 
-## E2E DevExperience Guide
-This DevExperience Guide will give you insights into services and best practices for a successful End-to-End Developer Workflow. It will provide: 
-- High-level introduction
-- Best practices
-- Decision Guides
-- Hands on Labs 
-- as well as links to more learning offers.  
+## E2E Develover Experience Guide
+This Developer Experience Guide will provide guidance to for Microsoft DevOps tooling, its setup and best practices. The following areas will be covered: 
+- Setup and automation of Project Management
+- Insights into different development environments
+- Guidance for Repositories & Branching
+- Creating automated CI/CD pipelines
+- Adding security to the E2E Developer Lifecycle
+- Leveraging AI for coding & development
+- Going deeper into set ups for Azure DevOps (ADO) & GitHub (GH)
 
-It is designed to bring customer and partners to a profound understanding of the technology and when to best use each strategy or tool. All instructions provided require a basic understanding of Development and DevOps. 
+
+The guide is designed for customer and partners that aim for decision guidance and practical insights to the Microsoft DevOps tooling and how to use it in a best practice manner. All instructions provided require a basic understanding of DevOps. More information to [What is DevOps?](https://learn.microsoft.com/en-us/devops/what-is-devops)
 
 Diagram of E2E Developer Architecture 
 
+![](assets/Devops%20Workflow.png)
 
+
+### Legend
+1. Git Branching – Keep your branching strategy simple; start basic and extend as required.
+2. Use Pull Requests & Enforce with Branch Policies
+3. Enable approvals & checks for deployments and service connections
+4. Implement Continuous Integration
+  - Execute unit tests as part of the CI process
+  - Enable static application security testing e.g. SonarCloud
+  - [PREVIEW] Enable Defender for DevOps  
+5. Implement Continuous Delivery
+  - Use Feature Flags for progressive exposure of features/experiments
+  - Use Infrastructure-as-Code to provision resources and manage configuration
+6. Perform Continuous Monitoring
+  - Use Application Insights if appropriate 
 
 ---
 
