@@ -1,6 +1,6 @@
 ---
 title: Defender for DevOps
-parent: Security
+parent: Security & Testing
 has_children: false
 nav_order: 2
 ---

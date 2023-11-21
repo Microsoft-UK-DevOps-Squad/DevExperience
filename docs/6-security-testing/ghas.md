@@ -1,6 +1,6 @@
 ---
 title: GitHub Advanced Security
-parent: Security
+parent: Security & Testing
 has_children: false
 nav_order: 1
 ---
