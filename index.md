@@ -20,7 +20,7 @@ This Developer Guide will guide you through the concepts and setup of Microsoft 
 
 ## Diagram of E2E Developer Architecture 
 
-[Diagram](/assets/DevOps%20Workflow.png)
+![Diagram](/assets/DevOps%20Workflow.png)
 
 
 ### Legend
