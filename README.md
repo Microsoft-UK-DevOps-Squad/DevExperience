@@ -1,6 +1,7 @@
 # About this project
 
-GitHub Pages: https://samaea.github.io/e2e-devops-architecture
+GitHub Pages: https://microsoft-uk-devops-squad.github.io/DevExperience/
+
 
 ## Contributing
 
