@@ -1,6 +1,6 @@
 ---
 title: Software Development Life Cycle
-parent: Security
+parent: Security & Testing
 has_children: false
 nav_order: 3
 ---
