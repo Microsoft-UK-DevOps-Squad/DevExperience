@@ -2,7 +2,7 @@
 $content-width: 1024px;
 
 // The site header needs to be taller due to the lengthy title.
-.site-header {
+div .site-header {
     min-height: 100px !important;
 }
 
@@ -18,8 +18,3 @@ blockquote {
     }
 }
 
-//increase height to make full headling visible
-.site-header {
-    height: 6.75rem !important;
-    max-height: 6.75rem;
-}

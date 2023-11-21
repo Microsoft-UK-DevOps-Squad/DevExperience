@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "E2E DevOps Reference Architecture"
+title: "E2E DevOps Experience"
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A reference architecture to accelerate the adoption of DevOps practices and improve developer velocity with your organisation.
@@ -86,7 +86,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/samaea/e2e-devops-architecture" # the github URL for your repo
+gh_edit_repository: "https://github.com/Microsoft-UK-DevOps-Squad/DevExperience" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -103,7 +103,7 @@ back_to_top_text: "Back to top"
 # Aux links for the upper right navigation
 aux_links:
   "E2E DevOps Reference Architecture on GitHub":
-    - "//github.com/samaea/e2e-devops-architecture"
+    - "//github.com/Microsoft-UK-DevOps-Squad/DevExperience"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
