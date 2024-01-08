@@ -49,6 +49,8 @@ Then, we can use Azure Monitor or similar and related services like Application 
 |execucionDetailsId|Navigate to Azure Portal > Chaos Studio > Experiments > {your experiment} > Overview: History: Identifier (make sure to double click as the ID is only partially visible)|*3C5F1BD4-8DC0-4035-A8BB-FDC6215D7FD9*|
 
 ## Demo (WIP)
-- Bicep template for two apps behind a FD
-- Steps to create the simple experiment
-- YAML for CI
+To learn and/or to demo it, you can use the end-to-end scenario created on [this GitHub repository](https://github.com/microsoft/contosotraders-cloudtesting/tree/main). It includes the necessary IaC to deploy all the resources and the guidance to run through it. It is specifically recommended to check out the [Chaos Studio](https://github.com/microsoft/contosotraders-cloudtesting/blob/main/demo-scripts/azure-chaos-studio/walkthrough.md) folder, specifically this [walk through section for running chaos experiments with GitHub actions](https://github.com/microsoft/contosotraders-cloudtesting/blob/main/demo-scripts/azure-chaos-studio/walkthrough.md#walkthrough-running-chaos-experiments-via-github-workflows).
+
+At the end, you should be able to run the experiment via a GitHub Actions workflow as seen on the picture below:
+
+![GitHub Actions for Chaos Studio](../../assets/chaos-exp-gh-action-workflow.png)
