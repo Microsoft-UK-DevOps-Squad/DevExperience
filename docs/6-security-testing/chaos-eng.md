@@ -22,7 +22,7 @@ Experiments are very straightforward to create and they are relatively similar t
 
 The first thing to do before creating an experiment is enabling the targets, which is done directly from Azure Chaos Studio. The reason behind it, is that we don't want to allow everyone to make any service fail, because these faults introduced are real faults, so **never target production instances**. We can use RBAC to control it.
 
-![Chaos Engineering Experiment](./assets/chaos-eng-experiment.png)
+![Chaos Engineering Experiment](./../../assets/chaos-eng-experiment.png)
 
 Steps run sequentially and branches run in parallel. You can use this to build your desired logic and the kinds of faults will depend on the scenario and targets, each with different options and configurations. 
 
@@ -52,4 +52,4 @@ To learn and/or to demo it, you can use the end-to-end scenario created on [this
 
 At the end, you should be able to run the experiment via a GitHub Actions workflow as seen on the picture below:
 
-![GitHub Actions for Chaos Studio](../../assets/chaos-exp-gh-action-workflow.png)
+![GitHub Actions for Chaos Studio](./../../assets/chaos-exp-gh-actions-workflow.png)
