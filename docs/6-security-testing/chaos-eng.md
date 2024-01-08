@@ -52,4 +52,4 @@ To learn and/or to demo it, you can use the end-to-end scenario created on [this
 
 At the end, you should be able to run the experiment via a GitHub Actions workflow as seen on the picture below:
 
-![GitHub Actions for Chaos Studio](../../assets/chaos-exp-gh-action-workflow.png)
+![GitHub Actions for Chaos Studio](./assets/chaos-exp-gh-action-workflow.png)
