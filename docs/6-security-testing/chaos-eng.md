@@ -43,8 +43,8 @@ Then, we can use Azure Monitor or similar and related services like Application 
 ### Tips for using the API via Azure CLI
 |Parameter name|Location|Format|
 |--|--|--|
-|experimentId|Navigate to Azure Portal > Chaos Studio > Experiments > {your experiment} > JSON View: `id` parameter| /subscriptions/`subscriptionId`/resourceGroups/`rgName`/ providers/Microsoft.Chaos/experiments/`experimentName`
-|apiVersion|Navigate to Azure Portal > Chaos Studio > Experiments > {your experiment} > JSON View: top right corner| {yyyy}-{mm}-{dd}(-preview)
+|experimentId|Navigate to Azure Portal > Chaos Studio > Experiments > {your experiment} > JSON View: `id` parameter| /subscriptions/`subscriptionId`/resourceGroups/`rgName`/ providers/Microsoft.Chaos/experiments/`experimentName`|
+|apiVersion|Navigate to Azure Portal > Chaos Studio > Experiments > {your experiment} > JSON View: top right corner| {yyyy}-{mm}-{dd}(-preview)|
 |execucionDetailsId|Navigate to Azure Portal > Chaos Studio > Experiments > {your experiment} > Overview: History: Identifier (make sure to double click as the ID is only partially visible)|*3C5F1BD4-8DC0-4035-A8BB-FDC6215D7FD9*|
 
 ## Demo
