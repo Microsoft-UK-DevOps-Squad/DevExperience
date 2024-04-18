@@ -1,5 +1,7 @@
 # About this project
 
+This GH project is a collection of resources for customer & partners to benefit form best practices and recommendation arond Developer Experience. 
+Any contribution is welcome. Please reach out if you want a certain topic addressed, changed or would like to contribute yourself. 
 GitHub Pages: https://microsoft-uk-devops-squad.github.io/DevExperience/
 
 
