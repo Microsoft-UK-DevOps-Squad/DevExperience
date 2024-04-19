@@ -1,5 +1,8 @@
 # About this project
 
+This GH project is for customer & partners to benefit form best practices and recommendations arond Microsofts Developer Experience. 
+We are technical Microsoft employees that work daily on these topics and like to share our knowledge.
+If you see anything that does not look right please raise an issue and we will address it asap. Also any contribution is welcome. Please reach out if you would like to contribute to this repo
 GitHub Pages: https://microsoft-uk-devops-squad.github.io/DevExperience/
 
 
